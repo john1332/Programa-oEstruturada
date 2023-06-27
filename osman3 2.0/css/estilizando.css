@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(124, 124, 124);
+    height: 100vh;
+}
+/*Header geral*/
+header{
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+}
+header h3{
+    margin: auto;
+    padding: 10px 40px;
+    border-radius: 30px;
+    background-color: white;
+    margin: 100px auto;
+}
+
+/*Header geral da pagina principal*/
+.header1{
+    display: block;
+
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    padding: 20px 0px;
+    
+}
+
+.header1 h1{
+    margin-bottom: 10px;
+}
+
+.header1 a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+}
+
+.header1 a:hover{
+    background-color: rgb(61, 61, 61);
+    padding: 0.5% 1%;
+    transition: padding 500ms;
+    color: aqua;
+    font-size: 20px;
+    border-radius: 200px;
+}
+
+.header1 a:active{
+    background-color: rgb(0, 0, 0);
+    transition: 500ms;
+}
+
+section{
+    display: grid;
+    place-items: center;
+}
+
+table,td,th{
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    width: 80vw;
+    margin: 10px;
+    box-shadow: 3px 3px 10px 0px rgb(0, 0, 0, 0.4);
+}
+
+table a{
+    text-decoration: none;
+    color: blue;
+}
+
+th{
+    background-color: beige;
+    font-family: monospace;
+}
+tr:nth-child(odd){
+    background-color: rgb(224, 224, 224);
+}
+tr:nth-child(even){
+    background-color: hsl(0, 0%, 65%);
+}
+tr:hover{
+    transform: scale(1.03);
+    transition:transform 500ms;
+    background-color: rgb(245, 245, 220);
+}
+td{
+    font-size: 18px;
+}
+
+.formulariocadastro > div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.formulariocadastro > div > label{
+    width: 40%;
+}
+
+.formulariocadastro > div > input,select{
+    width: 60%;
+}
+/*CONFIGURAÇÃO REFERENTE A PAGiNA ESPECIAL*/
+
+.BuscaEspecial>div{
+    width: 20%;
+}
+.BuscaEspecial>div>button{
+    width: 100%;
+}
